@@ -1,0 +1,118 @@
+body {
+  background-color: #f3e6d8;
+  color: #302d2c;
+}
+.recipe__card {
+  width: 650px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 100px auto;
+}
+.recipe__card__img {
+  width: 650px;
+}
+.recipe__card__img img {
+  width: 100%;
+  border-radius: 10px;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+.recipe__card__preparation {
+  padding: 25px;
+  background-color: #fff5fa;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  margin-top: 30px;
+}
+.recipe__card__preparation h3 {
+  color: #7b284f;
+  margin-top: 0px;
+}
+ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.recipe__card__preparation ul li,
+.recipe__card__ingredients ul li,
+.recipe__card__instructions ul li {
+  line-height: 1.8;
+  color: #5f574e;
+  padding-left: 20px;
+}
+.recipe__card__preparation ul li::marker {
+  color: #7b284f;
+}
+.recipe__card__preparation ul li span,
+.recipe__card__instructions ul li span {
+  font-weight: bold;
+}
+.recipe__card p,
+.recipe__card__nutrition p {
+  color: #5f574e;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.recipe__card__ingredients,
+.recipe__card__instructions,
+.nutrition-table {
+  font-family: "Outfit", sans-serif;
+}
+.recipe__card__ingredients h2,
+.recipe__card__instructions h2,
+.recipe__card__nutrition h2 {
+  color: #854632;
+}
+
+.recipe__card__ingredients ul li::marker,
+.recipe__card__instructions ul li::marker {
+  color: #854632;
+}
+hr {
+  border-top: 1px solid #e4ded8;
+  margin: 20px 0;
+}
+.recipe__card__instructions ul li {
+  list-style-type: decimal;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.nutrition-table {
+  width: 650px;
+  border-collapse: collapse;
+  color: #5f574e;
+}
+
+.nutrition-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e4ded8;
+}
+
+.nutrition-table td strong {
+  color: #854632;
+}
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+@media screen and (max-width: 375px) {
+  body{
+    background-color: #ffffff;
+  }
+  .recipe__card {
+    width: 375px;
+    padding: 0 ;
+    margin: 0 auto;
+  }
+  .recipe__card__img ,
+  .nutrition-table{
+    width: 375px;
+  }
+  section{
+    padding:0 15px;
+  }
+}
